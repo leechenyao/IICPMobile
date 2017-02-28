@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/iicpRed</item>
+        <item name="colorPrimaryDark">@color/iicpDarkRed</item>
+        <item name="colorAccent">@color/iicpDarkRed</item>
+    </style>
+
+    <style name="IICPMainTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/iicpGrey</item>
+        <item name="tabBackground">@color/iicpGrey</item>
+    </style>
+
+    <style name="IICPSubTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/iicpRed</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabBackground">@color/iicpGrey</item>
+        <item name="android:tabStripEnabled">false</item>
+    </style>
+
+    <style name="IICPEditText" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#F7F7F7</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:color">@color/iicpRed</item>
+    </style>
+
+    <style name="IICPButton" parent="android:Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/iicpRed</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/iicpWhite</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+</resources>

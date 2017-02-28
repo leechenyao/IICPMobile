@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">IICP Mobile</string>
+
+    <!-- Login -->
+    <string name="txtUsername_text">USERNAME</string>
+    <string name="txtPassword_text">PASSWORD</string>
+    <string name="btnLogin_text">Login</string>
+
+    <!-- Main -->
+    <string name="txtMainTab1_text">News</string>
+    <string name="txtMainTab2_text">Library</string>
+    <string name="txtMainTab3_text">Timetable</string>
+    <string name="txtMainTab4_text">Parking Slots</string>
+    <string name="txtMainTab5_text">Profile</string>
+
+    <!-- Library -->
+    <string name="txtSubTab1_text">E-Books</string>
+    <string name="txtSubTab2_text">Discussion Rooms</string>
+
+    <!-- Discussion Rooms -->
+    <string name="doneBooking_title">BOOKING DONE</string>
+    <string name="doneBooking_message">Please collect room key at Counter 1</string>
+    <string name="btnOK_text">OK</string>
+    <string-array name="discussion_room_list">
+        <item>Discussion Room 1</item>
+        <item>Discussion Room 2</item>
+        <item>Discussion Room 3</item>
+        <item>Discussion Room 4</item>
+        <item>Discussion Room 5</item>
+        <item>Discussion Room 6</item>
+        <item>Discussion Room 7</item>
+    </string-array>
+
+    <!-- Booking -->
+    <string name="txtBooking_title">CONFIRM BOOKING</string>
+    <string name="txtWarning_text">Please be punctual!\nYou will be blacklisted if you do not show up!</string>
+    <string name="txtTimeSlots_text">Time Slot: </string>
+    <string name="btnBook_text">Book</string>
+    <string name="btnCancel_text">Cancel</string>
+    <string name="confirmBooking_message">Are you sure want to book this Discussion Room?</string>
+    <string-array name="book_time_slots">
+        <item>8.00AM - 10.00AM</item>
+        <item>10.00AM - 12.00PM</item>
+        <item>12.00PM - 2.00PM</item>
+        <item>2.00PM - 4.00PM</item>
+        <item>4.00PM - 6.00PM</item>
+    </string-array>
+
+    <!-- Timetable -->
+    <string-array name="timetable">
+        <item>8.00AM - 10.00 AM\n<b>Data and Information Retrieval</b>\nNetwork Lab - Practical</item>
+        <item>10.00AM - 12.00 PM\n<b>Android Development Skills</b>\nLR406 - Lecture</item>
+        <item>1.00PM - 2.00 PM\n<b>iOS Development Skills</b>\nLR505 - Lecture</item>
+        <item>2.00PM - 4.00 PM\nAssignment Discussion\nDiscussion Room 4 - Booked</item>
+    </string-array>
+
+    <!-- Parking Slots -->
+    <string name="blockA_text">Block A</string>
+    <string name="blockB_text">Block B</string>
+    <string-array name="parking_floor">
+        <item>F1</item>
+        <item>F2</item>
+    </string-array>
+
+    <!-- Profile -->
+    <string name="chkBxNotify_text">Push Notifications</string>
+    <string name="txtAbout_text">ABOUT</string>
+    <string name="btnLogout_text">Logout</string>
+</resources>

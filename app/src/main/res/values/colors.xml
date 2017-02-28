@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="iicpRed">#e60000</color>
+    <color name="iicpDarkRed">#CC0000</color>
+    <color name="iicpWhite">#FFFFFF</color>
+    <color name="iicpGrey">#ECEFF1</color>
+    <color name="iicpDarkGrey">#A9A9A9</color>
+    <color name="iicpGreen">#4CAF50</color>
+    <color name="iicpDarkGreen">#006400</color>
+</resources>
